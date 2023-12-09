@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.log{
+    
+  margin: 115px auto;
+  width: 40%;
+  max-width: 400px;
+  width: 100%;
+  padding: 25px 30px;
+  border-radius: 90px;
+  background: black;
+}
+.log .Lheading{
+    
+  font-size: 40px;
+  font-weight: 900;
+  position: relative;
+  text-align: center;
+  padding: 0 0 20px 0; 
+}
+
+.log form .log-details{
+  margin-top: 30px;
+  
+}
+.log form .log-details .log-box{
+  margin-bottom: 20px;
+}
+.log form .log-details .bttn .d{
+  text-align: left;
+}
+.log form .log-details .bttn .circle{
+  text-align: left;
+  margin-top: 10px;
+  height: 35px;
+  width: 100%;
+  padding-left: 14px;
+  padding-top: 8px;
+  transition: all 0.3s ease;
+  
+  
+}
+
+.log form .log-details .log-box .Ldetails{
+  font-weight: 700;
+}
+.log form .log-details .log-box input{
+  margin-top: 5px;
+  text-align: left;
+  height: 45px;
+  width: 100%;
+  outline: none;
+  border-radius: 40px;
+  border: 1px solid rgba(29, 4, 248, 0.995);
+  padding-left: 15px;
+  font-size: 16px;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+.log-details .log-box input:focus,
+.log-details .log-box input:valid{
+  border-bottom: red;
+}
+form .Lbutton{
+  text-align: center;
+}
+form .Lbutton input{
+  padding: 8px 0px;
+  margin-top: 10px;
+  width: 100px;
+  outline: none;
+  color: rgb(243, 6, 6);
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  background: rgb(9, 1, 56);
+}
+form .Lbutton input:hover{
+  background: rgba(70, 231, 73, 0.356);
+}
+
+
+
+
+
+

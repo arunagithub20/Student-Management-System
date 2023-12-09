@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ 
+  .reg{
+    margin: 87.5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 500px;
+    width: 50%;
+    padding: 25px 30px;
+    border-radius: 80px;
+    background: black;
+  
+  }
+
+  .reg .heading{
+    font-size: 45px;
+    font-weight: 900;
+    position: relative;
+    text-align: center;
+    padding: 0 0 0 0;
+
+  }
+
+
+ 
+  .reg form .card-details{
+    margin-top: 5px;
+   
+  }
+  .reg form .card-details .card-box{
+ 
+  }
+  .reg form .card-details .bttn{
+    
+    
+  }
+  .reg form .card-details .bttn .circle{
+    margin-top:5px;
+    height: 25px;
+    width: 100%;
+    padding-left: 14px;
+    padding-top: 8px;
+    
+    
+    
+  }
+
+  .reg form .card-details .card-box .details{
+    display: block;
+    font-weight: 400;
+    margin-bottom: 5px;
+
+  }
+  .reg form .card-details .card-box input{
+    height: 25px;
+    width: 60%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(204, 204, 204);
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+  }
+  .card-details .card-box input:focus,
+  .card-details .card-box input:valid{
+    border-bottom: rgb(17, 5, 183);
+  }
+  
+  form .button{
+    text-align: center;
+  } 
+  form .button input{
+    padding: 8px 0px;
+   margin-top: 10px;
+    width: 25%;
+    outline: none;
+    color: rgb(225, 13, 13);
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    background: rgb(34, 33, 33);
+  }
+  form .button input:hover{
+    background: rgb(192, 222, 135);
+  }
+  
